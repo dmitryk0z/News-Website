@@ -4,7 +4,7 @@ const headers = new Headers()
 const reqInit = { method: 'GET', headers: headers, mode: 'cors', cache: 'default' }
 
 const COUNTRY = 'ie'
-const CATEGORY = 'sports'
+const CATEGORY = 'general'
 
 
 async function getNewsData(category) {
